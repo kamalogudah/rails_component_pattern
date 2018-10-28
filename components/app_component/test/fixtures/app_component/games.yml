@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2018-10-25 21:06:32
+   : MyString
+  location: MyString
+   : MyString
+  first_team_id: 1
+  second_team_id: 1
+   : MyString
+  winning_team: 1
+   : MyString
+  first_team_score: 1
+   : MyString
+  second_team_score: 1
+
+two:
+  date: 2018-10-25 21:06:32
+   : MyString
+  location: MyString
+   : MyString
+  first_team_id: 1
+  second_team_id: 1
+   : MyString
+  winning_team: 1
+   : MyString
+  first_team_score: 1
+   : MyString
+  second_team_score: 1

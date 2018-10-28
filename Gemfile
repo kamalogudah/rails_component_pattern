@@ -68,3 +68,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 path "components", group: [:default, :direct] do
   gem 'app_component'
 end
+gem "trueskill",
+  git: "https://github.com/benjaminleesmith/trueskill",
+  ref: "e404f45af5b3fb86982881ce064a9c764cc6a901"

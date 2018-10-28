@@ -56,7 +56,7 @@ module AppComponent
 
       # Only allow a trusted parameter "white list" through.
       def game_params
-        params.require(:game).permit(:date, : , :location, : , :first_team_id, :second_team_id, : , :winning_team, : , :first_team_score, : , :second_team_score)
+        params.require(:game).permit(:date, :location, :first_team_id, :second_team_id, :winning_team, :first_team_score, :second_team_score)
       end
   end
 end

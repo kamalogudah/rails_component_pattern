@@ -6,16 +6,11 @@
   <thead>
     <tr>
       <th>Date</th>
-      <th> </th>
-      <th>Location</th>
-      <th> </th>
+      <th>Location</th>      
       <th>First team</th>
       <th>Second team</th>
-      <th> </th>
       <th>Winning team</th>
-      <th> </th>
       <th>First team score</th>
-      <th> </th>
       <th>Second team score</th>
       <th colspan="3"></th>
     </tr>
@@ -25,16 +20,11 @@
     <% @games.each do |game| %>
       <tr>
         <td><%= game.date %></td>
-        <td><%= game.  %></td>
         <td><%= game.location %></td>
-        <td><%= game.  %></td>
         <td><%= game.first_team_id %></td>
         <td><%= game.second_team_id %></td>
-        <td><%= game.  %></td>
         <td><%= game.winning_team %></td>
-        <td><%= game.  %></td>
         <td><%= game.first_team_score %></td>
-        <td><%= game.  %></td>
         <td><%= game.second_team_score %></td>
         <td><%= link_to 'Show', game %></td>
         <td><%= link_to 'Edit', edit_game_path(game) %></td>

@@ -61,6 +61,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'app_component',
-   path: 'components/app_component',
-   group: [:default, :direct]
+# gem 'app_component',
+#    path: 'components/app_component',
+#    group: [:default, :direct]
+
+path "components", group: [:default, :direct] do
+  gem 'app_component'
+end
